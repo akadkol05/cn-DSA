@@ -8,8 +8,18 @@ public class SquareRoot {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number:");
 		int n=sc.nextInt();
-		int s=(int) Math.sqrt(n);
-		System.out.println(s);
+//		int s=(int) Math.sqrt(n);
+//		System.out.println(s);
+		int ans=0;
+		int start=1;
+		
+		while(start*start<=n) {
+			ans=start;
+			start++;
+		
+			}
+		System.out.println(ans);
+		
 		
 
 	}
