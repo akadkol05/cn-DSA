@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class PatternTriangles3 {
+public class PatternTriangle3 {
 	
 
 	public static void main(String[] args) {
